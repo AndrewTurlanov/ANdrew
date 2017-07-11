@@ -12,10 +12,10 @@ namespace Lesson1
 
         static void Main(string[] args)
         {
-           /*
+         
              byte variable_1 = 1;
              sbyte blom = -100;
-             int a = 10;
+             int ab = 10;
              long wep = 9999999;
              short q = 5000;
              decimal y = -79808000;            
@@ -23,14 +23,14 @@ namespace Lesson1
              bool isOpen = false;
              var t = 150;
              var t1 = true;
-           */
+           
 
 
 
 
              variable_1 = 1 + 1;
              blom = --blom;
-             a = ++a;
+             ab = ++ab;
              wep = 500000 + 50000;
              q = 9000 - 500;
              y = 79898989898 + 564354545364;
