@@ -12,7 +12,7 @@ namespace Lesson1
 
         static void Main(string[] args)
         {
-           
+           /*
              byte variable_1 = 1;
              sbyte blom = -100;
              int a = 10;
@@ -23,7 +23,7 @@ namespace Lesson1
              bool isOpen = false;
              var t = 150;
              var t1 = true;
-           
+           */
 
 
 
@@ -41,6 +41,18 @@ namespace Lesson1
              t1 = true || false;
             
 
+            
+             int a = 10;                                 //10
+             int b = 15 + 25;                            //40
+             int c = a * b + 8;                          //408
+             int d = (5 + 5) / 2;                        //5
+             bool b_a = true;                            //true
+             bool b_b = true && false;                   //false
+             bool b_c = false || true;                   // true    
+             bool b_d = true != false;                   //true
+             bool b_e = b_a == b_c;                      // true
+             string s = "test" + " " + "test2";          //test test2   
+            
 
         }
 
