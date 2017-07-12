@@ -10,36 +10,49 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
+            
             ConsoleKey playerKey = Console.ReadKey(true).Key;
             int x = 0, y = 0;
 
-            while (playerKey == ConsoleKey.Escape)
+
+
+
+
+
+            if (playerKey != ConsoleKey.Escape)
             {
 
-                if (playerKey == ConsoleKey.W)
+
+                switch (playerKey)
                 {
-                    x++;
+                    case ConsoleKey.W:
+                        x++;
+                        break;
+
+                    case ConsoleKey.S:
+                        x--;
+                        break;
+
+                    case ConsoleKey.D:
+                        y++;
+                        break;
+
+                    case ConsoleKey.A:
+                        y--;
+                        break;
+
                 }
 
-                else if (playerKey == ConsoleKey.S)
-                {
-                    x--;
-                }
-
-               else if (playerKey == ConsoleKey.D)
-                {
-                    y++;
-                }
-
-                else if (playerKey == ConsoleKey.A)
-                {
-                    y--;
-                }
+               
+               
 
 
-                Console.WriteLine("X=" + x + ", Y=" + y);
+                Console.WriteLine("X = " + x + ", Y = " + y);
+                
 
             }
+            
+
 
 
         }
