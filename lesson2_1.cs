@@ -14,16 +14,15 @@ namespace ConsoleApp1
             ConsoleKey playerKey = Console.ReadKey(true).Key;
             int x = 0, y = 0;
 
+            
 
 
-
-
-
-            if (playerKey != ConsoleKey.Escape)
+            while (playerKey != ConsoleKey.Escape)
             {
 
+                ConsoleKey newKey = Console.ReadKey(true).Key;
 
-                switch (playerKey)
+                switch (newKey)
                 {
                     case ConsoleKey.W:
                         x++;
