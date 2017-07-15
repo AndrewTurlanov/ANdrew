@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            Console.WriteLine("Введите пароль");
+            string UserPassword = Console.ReadLine();
+            string password = "pas2017";
+
+          
+            while (UserPassword != password)
+            {
+                Console.WriteLine("Пароль неверный, попробуйте еще раз");
+                UserPassword = Console.ReadLine();
+            }
+
+            if (UserPassword == password)
+            {
+                Console.WriteLine("Вы увидели секретное сообщение");
+            }
+
+
+        }
+    }
+}
